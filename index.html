@@ -11,18 +11,16 @@
 
   <div id="container">
     <h2>Contact Us</h2>
+    <div class = "errorMsg"><span id="error"></span></div>
     <form id="contact" onsubmit="return validateForm()">
       <div class="input_field">
         <input type="text" placeholder="First and Last name" id="nameFull" value="" onkeyup="validateName()">
-        <span id="messageName"></span>
       </div>
       <div class="input_field">
         <input type="text" placeholder="Email ID" id="emailId" value="" onkeyup="validateEmail()">
-        <span id="messageEmail"></span>
       </div>
       <div class="input_field">
         <input type="text" placeholder="Mobile Number" id="mobileNumber" value="" onkeyup="validateNumber()">
-        <span id="messagePhone"></span>
       </div>
       <div class="btn">
         <input type="submit" value="submit">
@@ -31,4 +29,5 @@
   </div>
 
 </body>
+
 </html>
